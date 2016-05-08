@@ -1,0 +1,23 @@
+{
+  "name": "deploy-test",
+  "version": "1.0.0",
+  "description": "Hooray!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octocrusade/deploy-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octocrusade/deploy-test/issues"
+  },
+  "homepage": "https://github.com/octocrusade/deploy-test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
