@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$DEPLOY_ENV" == "client" ]; then
+  node index.js
+else
+  node shmindex.js
+fi
