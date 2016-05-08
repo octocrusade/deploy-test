@@ -1,1 +1,1 @@
-web launch
+web ./launch
