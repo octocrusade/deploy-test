@@ -4,6 +4,4 @@ var app = express();
 
 app.get('/', function(request, response) {
     response.sendfile(__dirname + '/shmindex.html');
-}).configure(function() {
-    app.use('/images', express.static(__dirname + '/images'));
 }).listen(port);
